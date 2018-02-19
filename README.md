@@ -1,8 +1,10 @@
-# Start the server
-`docker-compose up`
+# Simple HTML Nginx server with docker-compose
 
-Then go to http://server-id:2018/
+## Usage
+```bash
+git clone git@github.com:theel0ja/simple-html-nginx-server-docker-compose.git test-server
+cd test-server
+sudo docker-compose up
+```
 
-# Where do I need to put the .html files?
-
-Put them to `./public_html`
+Then, visit http://[your-server-ip]:2018/ in your browser.
