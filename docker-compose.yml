@@ -1,0 +1,9 @@
+version: '2'
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - 2018:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./public_html:/app
