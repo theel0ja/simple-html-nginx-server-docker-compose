@@ -1,7 +1,7 @@
 version: '2'
 services:
   nginx:
-    image: armhfbuild/nginx:alpine
+    image: armhfbuild/nginx:latest
     ports:
       - 2018:80
     volumes:
